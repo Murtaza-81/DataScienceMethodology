@@ -1,0 +1,55 @@
+In this Assignment, we will demonstrate our understanding of the data science methodology by applying it to the following problem.
+
+Credit Cards
+
+we will have to play the role of the client as well as the data scientist to come up with our problem statement.
+
+Project Title *
+Credit Cards Automation... an application of Data Science Methodology
+
+Which topic did you choose to apply the data science methodology to?
+ I have chosen "Credit Cards Automation, an application of Data Science Methodology" as my topic for subject project.
+
+Next, we will play the role of the client and the data scientist. 
+Using the above topic , we will complete the Business Understanding stage by coming up with our problem and phrasing it in the form of a question that we will use data to answer.
+
+We are required to:
+Describe the problem, related to the topic you selected.
+Phrase the problem as a question to be answered using data.
+
+Hence the answer is:
+
+The major issue that banks face, is the issuance of credit cards to the right people. So they need a model that could predict the right person on the basis of customer's financial strength, previous credit history and other feasible factors.
+Hence the question arises in this regard is:
+"On the basis of customer's given data, can a bank automatically determine if a customer should be issued a credit card or not?".
+
+Now we will briefly explain how we would complete each of the following stages for the problem that we described in the Business Understanding stage, so that we are ultimately able to answer the problem statement.
+
+Analytic Approach
+Data Requirements
+Data Collection
+Data Understanding and Preparation
+Modeling and Evaluation
+
+Hence the answer is:
+
+Analytic Approach:
+               We will use classification model, as the given problem regarding bank's credit card requires a yes-no answer.
+
+Data Requirements: 
+               The major requirement to create a model for this problem is to collect customer data including his/her name, customer's National ID, age, monthly income, previous credit
+history in any bank, if available etc. 
+
+Data Collection: 
+               At this stage, we will identify the available data resources, that is bank's customer data. It is premade data set which is ready to use. The data will be retrieved from
+the bank's data base through programming language. in our case, we will use Pandas library of Python programming language. 
+
+Data Understanding and Preparation:
+               In this step we will  understand more about the data collected from bank repository. We have to check the data types, learn more about the attributes and their names to
+understand it better. In data preparation stage, we will prepare data for modeling. This is the most crucial step in data science methodology due to requisition of clean and error free data. In this stage,
+we have to be sure that the data are in the correct format for the machine learning algorithm we chose in the analytic approach stage.  columns name must be appropriate and exactly used in data frames, Boolean values must be unified, we will use (yes, no) in our data. data is always case sensitive, so will make it sure that the same value has not written with different cases.
+
+Modeling and Evaluation:
+               In this final stage, we will try to understand if our previous work is ready to carry with or it needs to be reviewed. On the basis of our analytic approach, we will 
+develop classification model. In the Model Evaluation, we will evaluate the model with training sets and test set until the required model is obtained. 
+
